@@ -3,7 +3,7 @@ story
   authors:
     John Googol
   id: familyzoo-v05
-  ifid: 91A12144-18DB-40FC-A4A6-604CA87E6FDA
+  ifid: 7C69CB4A-4941-4B1B-9EA0-FF89FE6D8937
   story-version: 0.0.2
   description: Sharpee tutorial step 5 — `a container`, `a supporter`, and what they hold.
 
@@ -34,26 +34,23 @@ create the Main Path
 
   A wide gravel path winds through the heart of the zoo. Colorful
   direction signs point every which way. A park bench sits beside the
-  path. To the east, the petting zoo. To the west, the aviary. A staff
-  gate blocks the path to the south. The entrance is back to the north.
+  path. To the east, the petting zoo. To the west, the aviary. The
+  entrance is back to the north.
 
 create the Petting Zoo
   a room
   aka petting area, pen
 
-  A cheerful open-air enclosure that smells of warm hay and fur. A feed
-  dispenser is mounted on a post, and an info plaque is posted by the
-  gate. The main path is back to the west.
+  A cheerful open-air enclosure that smells of warm hay and fur. The
+  main path is back to the west.
 
 create the Aviary
   a room
   aka bird house, dome
 
-  You step inside a soaring mesh dome. Brilliantly colored parrots
-  chatter from rope perches, and a toucan eyes you curiously from a
-  branch overhead. A small waterfall splashes into a stone basin. An
-  info plaque hangs near the entrance. The gift shop is to the west. The
-  main path is back to the east.
+  You step inside a soaring mesh dome. A toucan eyes you curiously from a
+  branch overhead, and rope perches crisscross the space. A small
+  waterfall splashes into a stone basin. The main path is back to the east.
 
 create Alex
   a person

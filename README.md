@@ -1,32 +1,30 @@
-# Family Zoo — v05 — Containers & Supporters
+# Family Zoo — v05: Containers & Supporters
 
-Adds intermediate storage: a backpack to put things in, a park bench to set things on, and a fixed feed dispenser. Covers the split between containers and supporters and how capacity limits work.
+A backpack that holds things and a park bench that things sit on. Chord distinguishes what is *in* a thing from what is *on* it, and the parser follows.
 
-Step 5 of the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial — a progressive walkthrough of the [Sharpee](https://sharpee.net) TypeScript interactive fiction engine, from a single room to a full multi-file story.
+Step 5 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial for [Chord](https://sharpee.net/chord/), the authoring language of the [Sharpee](https://sharpee.net) interactive fiction engine.
 
-## What this step teaches
+## What this step adds
 
-- ContainerTrait for things held inside
-- SupporterTrait for things placed on top
-- Preposition-sensitive parsing of put in vs put on
-- Capacity limits via maxItems
-- Composing multiple traits (e.g. SupporterTrait + SceneryTrait) on one entity
+- `a container` — things go in it
+- `a supporter` — things go on it
+- Putting a thing inside another at creation time
+- How the room description reports contents it did not have to be told about
 
-## Playing
+## The source
 
-Open `play.html`, or preview the folder:
+The whole step is one file: [`familyzoo-v05.story`](./familyzoo-v05.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v05-containers-supporters.md`](./docs/v05-containers-supporters.md).
 
-```bash
-python -m http.server 8000 --directory familyzoo-v05
-```
-
-## Building
-
-This is a **frozen 0.9.x TypeScript version**. The built player in this folder is the published artifact; it is re-laid from `browser/` by the workspace build:
+## Playing and testing
 
 ```bash
-python ../tools/build.py familyzoo-v05
-python C:/code/ifhub/tools/ship.py familyzoo-v05
+npx sharpee play
+npx sharpee test          # replays familyzoo-v05.tests.json
+python ../tools/build.py familyzoo-v05 --force
 ```
 
-The authoring tree for every version lives in the [familyzoo](https://github.com/Johnesco/familyzoo) repo.
+## Engine
+
+Pinned to `@sharpee/*` **5.3.0** (Chord 3.6.0), held there by an `overrides` block: 5.3.1 publishes broken subpath exports and breaks `sharpee test`.
+
+The 0.9.x TypeScript edition this replaced is kept in [`legacy/`](./legacy).

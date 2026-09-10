@@ -1,11 +1,4 @@
-take backpack
-take map
-put map in backpack
-look in backpack
+x backpack
 south
-take penny
-put penny on bench
-examine bench
-east
-take dispenser
-examine dispenser
+x park bench
+x lunchbox

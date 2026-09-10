@@ -8,7 +8,7 @@ A small red canvas backpack.
 
 > south
 Main Path
-A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. A park bench sits beside the path. To the east, the petting zoo. To the west, the aviary. A staff gate blocks the path to the south. The entrance is back to the north.
+A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. A park bench sits beside the path. To the east, the petting zoo. To the west, the aviary. The entrance is back to the north.
 
 You can see a souvenir penny and a lunchbox here.
 
