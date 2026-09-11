@@ -7,15 +7,11 @@ x iron fence
 x fence
 x zoo brochure
 read zoo brochure
-i
 x brochure
 x zoo map
-i
 x map
 x backpack
 look in backpack
-look in backpack
-i
 x rucksack
 x backpack
 south
@@ -24,18 +20,14 @@ x signs
 x flower beds
 x flowers
 x souvenir penny
-i
 x penny
 x park bench
 look on park bench
 x bench
 x lunchbox
 look in lunchbox
-look in lunchbox
-i
 x lunch box
 x juice box
-i
 x juice
 x park bench
 x lunchbox
@@ -84,4 +76,3 @@ take toucan
 take waterfall
 take rope perches
 score
-inventory
