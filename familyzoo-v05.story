@@ -60,6 +60,7 @@ create Alex
   Just an ordinary visitor to the zoo.
 
 create the welcome sign
+  a thing
   aka sign
   scenery
   in the Zoo Entrance
@@ -68,6 +69,7 @@ create the welcome sign
   ZOO."
 
 create the ticket booth
+  a thing
   aka booth
   scenery
   in the Zoo Entrance
@@ -75,6 +77,7 @@ create the ticket booth
   A small wooden booth with a "Self-Guided Tours" sign.
 
 create the iron fence
+  a thing
   aka fence, railing
   scenery
   in the Zoo Entrance
@@ -82,6 +85,7 @@ create the iron fence
   A tall wrought-iron fence with animal silhouettes.
 
 create the direction signs
+  a thing
   aka signs, arrow signs
   scenery, plural
   in the Main Path
@@ -89,6 +93,7 @@ create the direction signs
   Arrow signs: PETTING ZOO (east), AVIARY (west), EXIT (north).
 
 create the flower beds
+  a thing
   aka flowers
   scenery, plural
   in the Main Path
@@ -96,6 +101,7 @@ create the flower beds
   Tidy beds of marigolds and petunias.
 
 create the hay bale
+  a thing
   aka hay, bale
   scenery
   in the Petting Zoo
@@ -103,6 +109,7 @@ create the hay bale
   A large round bale of golden hay.
 
 create the toucan
+  a thing
   aka toco toucan
   scenery
   in the Aviary
@@ -110,6 +117,7 @@ create the toucan
   A Toco toucan with an enormous orange-and-black bill.
 
 create the waterfall
+  a thing
   aka water, basin
   scenery
   in the Aviary
@@ -117,6 +125,7 @@ create the waterfall
   A gentle artificial waterfall cascading into a stone basin.
 
 create the rope perches
+  a thing
   aka perches, ropes
   scenery, plural
   in the Aviary
@@ -124,6 +133,7 @@ create the rope perches
   Thick sisal ropes strung between wooden posts.
 
 create the zoo brochure
+  a thing
   aka brochure, pamphlet, leaflet
   readable
   in the Zoo Entrance
@@ -135,39 +145,45 @@ create the zoo brochure
   end on
 
 create the zoo map
+  a thing
   aka map, folding map
   in the Zoo Entrance
 
   A colorful folding map of the Willowbrook Family Zoo.
 
 create the backpack
-  aka rucksack, pack
   a container
+  aka rucksack, pack
   in the Zoo Entrance
 
   A small red canvas backpack.
 
 create the souvenir penny
+  a thing
   aka penny, coin
   in the Main Path
 
   A shiny copper penny.
 
 create the park bench
+  a supporter
   aka bench, benches, seat
-  scenery, a supporter with capacity 3
+  scenery
+  holds 3
   in the Main Path
 
   A sturdy park bench painted forest green.
 
 create the lunchbox
+  a container
   aka lunch box, box
-  a container, openable
+  openable
   in the Main Path
 
   A dented metal lunchbox decorated with cartoon zoo animals.
 
 create the juice box
+  a thing
   aka juice, drink
   in the lunchbox
 

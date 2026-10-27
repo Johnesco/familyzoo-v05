@@ -1,10 +1,6 @@
 {
-  "version": 1,
-  "story": "familyzoo-v05",
-  "seed": 42,
   "cards": [
     {
-      "type": "opening",
       "assertions": {
         "channels": [
           {
@@ -16,53 +12,61 @@
             "is": "Sharpee tutorial step 5 — `a container`, `a supporter`, and what they hold."
           }
         ]
-      }
+      },
+      "id": "zo5ptcy9",
+      "type": "opening"
     },
     {
-      "type": "boot",
       "assertions": {
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
-      }
+      },
+      "id": "va0sd7bk",
+      "type": "boot"
     },
     {
-      "type": "turn",
-      "command": "x backpack",
       "assertions": {
         "contains": [
           "A small red canvas backpack."
         ]
-      }
+      },
+      "command": "x backpack",
+      "id": "sugisurf",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "south",
       "assertions": {
         "contains": [
           "Main Path",
           "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
         ]
-      }
+      },
+      "command": "south",
+      "id": "6pa0wwk9",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "x park bench",
       "assertions": {
         "contains": [
           "A sturdy park bench painted forest green."
         ]
-      }
+      },
+      "command": "x park bench",
+      "id": "1jo4plgx",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "x lunchbox",
       "assertions": {
         "contains": [
           "A dented metal lunchbox decorated with cartoon zoo animals."
         ]
-      }
+      },
+      "command": "x lunchbox",
+      "id": "bs1lqrmp",
+      "type": "turn"
     }
-  ]
+  ],
+  "id": "wnznf3yj"
 }
