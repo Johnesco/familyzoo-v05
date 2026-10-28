@@ -13,7 +13,7 @@ Step 5 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tut
 
 ## The source
 
-The whole step is one file: [`familyzoo-v05.story`](./familyzoo-v05.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v05-containers-supporters.md`](./docs/v05-containers-supporters.md).
+The whole step is one file: [`familyzoo-v05.story`](./familyzoo-v05.story) — the step before it plus the ideas above. Where it sits in the trail is on the [group page](https://johnesco.github.io/familyzoo/#familyzoo-v05).
 
 ## Playing and testing
 
